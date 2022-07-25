@@ -21,7 +21,7 @@ namespace ConsoleEntitySearch
             using (var client = new HttpClient())
             {
                 // Setting Base address.  
-                client.BaseAddress = new Uri("https://localhost:7045/");
+                client.BaseAddress = new Uri("https://localhost:7269/");
 
                 // Setting content type.  
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
